@@ -1,0 +1,24 @@
+
+
+public class Calculation {
+	int result;
+	
+ 
+	int add(int num1, int num2){
+		result = num1+num2;
+		return result;
+	}
+	int substract(int num1, int num2){
+		result = num1-num2;
+		return result;
+	}
+	int multiply(int num1, int num2){
+		result = num1*num2;
+		return result;
+	}
+	float divide(int num1, int num2){
+		result = num1/num2;
+		return result;
+	}
+	
+}
